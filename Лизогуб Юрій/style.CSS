@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    border: 2px solid #093a2e;
+    width: calc(80% + 70px);
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#leftBlock, #infopage {
+    border: 2px solid #093a2e;
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    float: left;
+}
+
+#leftBlock {
+    width: 20%;
+    margin-left: 5%;
+}
+
+#infopage {
+    width: 63%;
+    min-height: 400px;
+}
+
+/* --- Ергономічний дизайн тесту --- */
+#quiz_container {
+    padding: 20px;
+}
+
+.question-container {
+    margin-bottom: 20px;
+    background-color: #fdfdfd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.options label {
+    display: block;
+    background-color: #e9ecef;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 16px;
+}
+
+.options label:hover {
+    background-color: #d1d8e0;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#submit-btn {
+    background-color: #093a2e;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+}
+
+#submit-btn:hover {
+    background-color: #0c4d3d;
+}
+
+#result {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #093a2e;
+}
